@@ -11,9 +11,14 @@ Attention à bien avoir installer votre machine:
 ```
 conda create -n "torch2025" python=3.12
 conda activate "torch2025"
-pip install -r requirement2025.txt
+pip install -r requirements2025.txt
 ```
 
+Si vous avez besoin de tout remettre à 0 à un moment donné
+```
+conda deactivate 
+conda env remove -n torch2025 
+```
 
 ## 0. Prise en main de pytorch
 
